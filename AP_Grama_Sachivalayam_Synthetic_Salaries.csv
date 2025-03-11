@@ -1,0 +1,21 @@
+EmployeeID,Name,Gender,Age,Designation,Department,Years_of_Experience,Education_Level,District,Monthly_Salary,Salary_Grade,Promotion_Eligible,Expected_Retirement_Year
+EMP0001,Sana Tara,Male,27,Ward Health Secretary,Health Department,2,Intermediate,West Godavari,32188,Grade IV,No,2058
+EMP0002,Mahika Amble,Male,37,Digital Assistant,IT Department,8,Intermediate,Nellore,31680,Grade IV,Yes,2048
+EMP0003,Baiju Iyer,Female,41,Welfare Assistant,Welfare Department,1,Intermediate,Chittoor,28451,Grade II,No,2044
+EMP0004,Shanaya Das,Male,45,Welfare Assistant,Welfare Department,0,Intermediate,Kadapa,28000,Grade III,No,2040
+EMP0005,Ahana  Borah,Male,23,Digital Assistant,IT Department,2,Master's,Srikakulam,28164,Grade I,No,2062
+EMP0006,Kanav Mallick,Female,58,Engineering Assistant,Rural Development,17,Bachelor's,Visakhapatnam,42837,Grade III,Yes,2027
+EMP0007,Baiju Badal,Female,48,Digital Assistant,IT Department,1,Intermediate,Kurnool,27466,Grade III,No,2037
+EMP0008,Divij Loke,Female,28,Welfare Assistant,Welfare Department,3,Master's,Prakasam,29131,Grade IV,No,2057
+EMP0009,Dharmajan Deol,Female,49,Ward Administrative Secretary,Ward Administration,22,Master's,Srikakulam,39648,Grade III,Yes,2036
+EMP0010,Yasmin Yohannan,Female,23,Welfare Assistant,Welfare Department,0,Bachelor's,Nellore,28000,Grade I,No,2062
+EMP0011,Anahita Chahal,Female,28,VRO,Revenue Department,7,Bachelor's,Kadapa,33115,Grade IV,Yes,2057
+EMP0012,Prerak Sur,Male,29,Engineering Assistant,Rural Development,4,Intermediate,Kadapa,36636,Grade II,No,2056
+EMP0013,Arhaan Mannan,Male,27,VRO,Revenue Department,1,Master's,Guntur,30403,Grade IV,No,2058
+EMP0014,Kanav Krishnan,Female,58,Ward Administrative Secretary,Ward Administration,19,Master's,Krishna,34985,Grade IV,Yes,2027
+EMP0015,Neysa Rana,Female,25,Digital Assistant,IT Department,0,Master's,Krishna,27000,Grade I,No,2060
+EMP0016,Samaira Banik,Female,35,Mahila Police,Women & Child Welfare,0,Bachelor's,Prakasam,25000,Grade II,No,2050
+EMP0017,Anahita Kale,Male,35,Welfare Assistant,Welfare Department,2,Intermediate,Chittoor,28606,Grade II,No,2050
+EMP0018,Aayush Dass,Female,56,Digital Assistant,IT Department,35,Bachelor's,Kurnool,44185,Grade II,Yes,2029
+EMP0019,Ehsaan Chawla,Female,30,VRO,Revenue Department,5,Bachelor's,Vizianagaram,32200,Grade I,No,2055
+EMP0020,Yuvraj  Ganguly,Male,28,Ward Health Secretary,Health Department,7,Bachelor's,Visakhapatnam,34297,Grade III,Yes,2057
