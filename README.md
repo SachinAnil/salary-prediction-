@@ -14,9 +14,13 @@ A simple machine learning web app built using **Flask** and **Linear Regression*
 
 ## 🚀 Features
 
-- 🔢 Salary prediction based on years of experience.
+- 🔢 Salary prediction based on years of experience and employee id.
 - 🌐 Web interface built using HTML and Flask.
-- 🧠 Machine Learning with scikit-learn’s Linear Regression.
+- 🧠 Tech Stack
+      Backend: Python, Flask
+      Frontend: HTML, CSS (Bootstrap-style)
+      Data Handling: Pandas
+      Model (Coming Soon): Simple rule-based logic (can be extended to ML)
 - 📊 Dataset includes:
   - Designation
   - Department
