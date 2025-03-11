@@ -1,23 +1,13 @@
 from flask import Flask, render_template, request
 import pandas as pd
-from sklearn.linear_model import LinearRegression
-import numpy as np
 
 app = Flask(__name__)
 
-# Load dataset
-df = pd.read_csv("AP_Grama_Sachivalayam_Synthetic_Salaries.csv")
+# Load CSV
+df = pd.read_csv('AP_Grama_Sachivalayam_Synthetic_Salaries.csv')
 
-# Check column names
-print("Columns in CSV:", df.columns)
-
-# Prepare training data
-X = df[['Years_of_Experience']]
-y = df['Monthly_Salary']
-
-# Train the model
-model = LinearRegression()
-model.fit(X, y)
+# Print column names to verify
+print("CSV Columns:", df.columns.tolist())
 
 @app.route('/')
 def home():
@@ -25,17 +15,16 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    try:
-        experience = float(request.form['experience'])
-        prediction = model.predict(np.array([[experience]]))[0]
-        prediction = round(prediction, 2)
-        return render_template('index.html', prediction=prediction)
-    except Exception as e:
-        return render_template('index.html', prediction=f"Error: {e}")
+    employee_id = request.form['employee_id']
+    experience = float(request.form['experience'])
+
+    # Use correct column name: 'EmployeeID'
+    if employee_id in df['EmployeeID'].astype(str).values:
+        base_salary = df[df['EmployeeID'].astype(str) == employee_id]['Monthly_Salary'].values[0]
+        predicted_salary = base_salary + (experience * 1000)  # Simple logic
+        return render_template('index.html', prediction=predicted_salary, employee_id=employee_id)
+    else:
+        return render_template('index.html', prediction="Employee ID not found", employee_id=employee_id)
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-
-
