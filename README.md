@@ -58,6 +58,7 @@ http://127.0.0.1:5000/
 📈 Include salary trend visualizations
 ☁️ Deploy app using Render, Railway, or Replit
 🔐 Add login functionality for user/admin access
+
 👨‍💻 Author
 Sachin Anil Krishna Kummara
 📧 anilsachin52@gmail.com
